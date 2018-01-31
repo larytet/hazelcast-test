@@ -17,7 +17,7 @@ Build the test
 	g++ -Wall test.cpp -o test -I ../hazelcast-cpp-client/hazelcast/include/ -I ../hazelcast-cpp-client/hazelcast/generated-sources/include/ -L ../hazelcast-cpp-client/build -l HazelcastClient3.9.2-SNAPSHOT_64 -l pthread
 
 
-Install docker
+Install docker, ran Hazelcast
 
 	sudo apt-get install docker.io
 	sudo docker run -ti hazelcast/hazelcast
